@@ -1,0 +1,61 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  margin: 0;
+}
+a {
+  color: black;
+}
+a:hover {
+  color:#F55A5A;
+}
+header {
+  background-color: #F55A5A;
+  display: flex;
+  height: 55px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+header > img {
+  width: 24px;
+}
+header > h1 {
+  font-size: 20px;
+  font-weight: 400;
+}
+/*JOURNAL*/
+.journal {
+  display: grid;
+  grid-template-columns: 125px 1fr;
+  gap: 24px;
+  font-size: 14px;
+  padding: 24px;
+}
+.main-image {
+  max-width: 125px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.journal h2 {
+  font-size: 20px;
+  margin: 12px 0;
+}
+.journal p {
+  margin: 0;
+}
+.journal .marker {
+  width: 12px;
+}
+.journal .dates {
+  font-weight: 700;
+}
