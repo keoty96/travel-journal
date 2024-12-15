@@ -14,13 +14,13 @@ export default function Entry(props) {
         <span className="country"> {props.country} </span>
         <a
           className="map-link"
-          href={props.googleMap}
+          href={props.googleMapsLink}
         >
           View on Google Maps
         </a>
         <h2>{props.title}</h2>
         <p className="dates">{props.dates}</p>
-        <p className="description">{props.description}</p>
+        <p className="description">{props.text}</p>
       </div>
     </article>
   );
